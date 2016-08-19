@@ -1,0 +1,246 @@
+\documentclass{article}
+
+\begin{document}
+
+<<>>=
+setwd("descriptive")
+library(hadleyverse)
+df <- read_csv("Master Panel.csv") %>% 
+  mutate(populism = as.numeric(ifelse(countryname == "Venezuela" & year > 2001 & year < 2014, 1, 0))) %>% 
+  mutate(populism = as.numeric(ifelse(countryname == "Argentina" & year > 1945 & year < 1956, 1, populism))) %>% 
+  mutate(populism = as.numeric(ifelse(countryname == "Peru" & year > 1989 & year < 2001, 1, populism))) %>% 
+  mutate(populism = as.numeric(ifelse(countryname == "Spain" & year > 2010 & year < 2016, 1, populism))) %>% 
+  mutate(populism = as.numeric(ifelse(countryname == "Greece" & year > 2011 & year < 2016, 1, populism))) %>% 
+  mutate(populism = as.numeric(ifelse(countryname == "Ecuador" & year > 1933 & year < 1936 | 
+                                      countryname == "Ecuador" & year > 1943 & year < 1948 |
+                                      countryname == "Ecuador" & year > 1951 & year < 1957 |
+                                      countryname == "Ecuador" & year > 1959 & year < 1962 |
+                                      countryname == "Ecuador" & year > 1967 & year < 1973, 1, populism)))
+
+@
+
+<<>>=
+
+#ADD ELECTION YEARS TO PLOTS
+dv <- read_csv("Master Panel.csv") %>% 
+  filter(countryname == "Venezuela", year > 1959)
+
+ggplot() +
+  geom_line(data = dv, aes(x = year, y = v2xps_party, color = "v2xps_party"), size = 1) +
+  geom_line(data = dv, aes(x = year, y = PI_7, color = "PI_7"), size = 1) +
+  theme_bw() +
+  geom_rect(aes(xmin = 2002, xmax = 2013, ymin = 0, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_rect(aes(xmin = 1994, xmax = 1999, ymin = 0, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_vline(xintercept = 1993) +
+  geom_vline(xintercept = 1998) +
+  geom_vline(xintercept = 2000) +
+  geom_vline(xintercept = 2006) +
+  geom_vline(xintercept = 2012) +
+  geom_vline(xintercept = 2013) +
+  ylim(-2,2) +
+  ylab("Party System Institutionalization") +
+  xlab("Year") +
+  ggtitle("Venezuela Party System Institutionalization") +
+  theme(plot.title = element_text(lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
+  scale_color_manual(values=c("v2xps_party"="black", "PI_7" = "lightblue"), labels = c("Party Strength", "Party System Institutionalization"))
+
+
+
+da <- read_csv("Master Panel.csv") %>% 
+  filter(countryname == "Argentina")
+
+ggplot() +
+  geom_line(data = da, aes(x = year, y = v2xps_party, color = "v2xps_party"), size = 1) +
+  geom_line(data = da, aes(x = year, y = PI_7, color = "PI_7"), size = 1) +
+  theme_bw() +
+  geom_rect(aes(xmin = 1946, xmax = 1955, ymin = 0, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_rect(aes(xmin = 1973, xmax = 1974, ymin = 0, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_rect(aes(xmin = 1989, xmax = 1999, ymin = 0, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_vline(xintercept = 1946) +
+  geom_vline(xintercept = 1951) +
+  geom_vline(xintercept = 1973) +
+  geom_vline(xintercept = 1989) +
+  geom_vline(xintercept = 1995) +
+  geom_vline(xintercept = 1999) +
+  ylim(-2,2) +
+  xlim(1945, 2015) +
+  ylab("Party System Institutionalization") +
+  xlab("Year") +
+  ggtitle("Argentina Party System Institutionalization") +
+  theme(plot.title = element_text(lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
+  scale_color_manual(values=c("v2xps_party"="black", "PI_7" = "lightblue"), labels = c("Party Strength", "Party System Institutionalization"))
+
+dp <- read_csv("Master Panel.csv") %>% 
+  filter(countryname == "Peru")
+
+ggplot() +
+  geom_line(data = dp, aes(x = year, y = v2xps_party, color = "v2xps_party"), size = 1) +
+  geom_line(data = dp, aes(x = year, y = PI_7, color = "PI_7"), size = 1) +
+  theme_bw() +
+  geom_rect(aes(xmin = 1990, xmax = 2000, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_rect(aes(xmin = 2006, xmax = 2011, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_vline(xintercept = 1990) +
+  geom_vline(xintercept = 1995) +
+  geom_vline(xintercept = 2000) +
+  geom_vline(xintercept = 2006) +
+  geom_vline(xintercept = 2011) +
+  ylim(-2,2) +
+  xlim(1978, 2015) +
+  ylab("Party System Institutionalization") +
+  xlab("Year") +
+  ggtitle("Party System Institutionalization - Peru") +
+  theme(plot.title = element_text(lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
+  scale_color_manual(values=c("v2xps_party"="black", "PI_7" = "lightblue"), labels = c("Party Strength", "Party System Institutionalization"))
+
+de <- read_csv("Master Panel.csv") %>% 
+  filter(countryname == "Ecuador")
+
+ggplot() +
+  geom_line(data = de, aes(x = year, y = v2xps_party, color = "v2xps_party"), size = 1) +
+  geom_line(data = de, aes(x = year, y = PI_7, color = "PI_7"), size = 1) +
+  theme_bw() +
+  geom_rect(aes(xmin = 1934, xmax = 1935, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_rect(aes(xmin = 1944, xmax = 1947, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_rect(aes(xmin = 1952, xmax = 1956, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_rect(aes(xmin = 1990, xmax = 1991, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_rect(aes(xmin = 1968, xmax = 1972, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_rect(aes(xmin = 1996, xmax = 1997, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_rect(aes(xmin = 2007, xmax = 2015, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_vline(xintercept = 1933) +
+  geom_vline(xintercept = 1940) +
+  geom_vline(xintercept = 1948) +
+  geom_vline(xintercept = 1952) +
+  geom_vline(xintercept = 1956) +
+  geom_vline(xintercept = 1996) +
+  geom_vline(xintercept = 1998) +
+  geom_vline(xintercept = 2006) +
+  geom_vline(xintercept = 2009) +
+  geom_vline(xintercept = 2013) +
+  ylim(-2,2) +
+  xlim(1930, 2015) +
+  ylab("Party System Institutionalization") +
+  xlab("Year") +
+  ggtitle("Party System Institutionalization - Ecuador") +
+  theme(plot.title = element_text(lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
+  scale_color_manual(values=c("v2xps_party"="black", "PI_7" = "lightblue"), labels = c("Party Strength", "Party System Institutionalization"))
+
+
+
+ds <- read_csv("Master Panel.csv") %>% 
+  filter(countryname == "Spain")
+
+ggplot() +
+  geom_line(data = ds, aes(x = year, y = v2xps_party, color = "v2xps_party"), size = 1) +
+  geom_line(data = ds, aes(x = year, y = PI_7, color = "PI_7"), size = 1) +
+  theme_bw() +
+  geom_rect(aes(xmin = 2014, xmax = 2015, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_vline(xintercept = 2015) +
+  ylim(-2,2) +
+  xlim(2005, 2015) +
+  ylab("Party System Institutionalization") +
+  xlab("Year") +
+  ggtitle("Party System Institutionalization - Spain") +
+  theme(plot.title = element_text(lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
+  scale_color_manual(values=c("v2xps_party"="black", "PI_7" = "lightblue"), labels = c("Party Strength", "Party System Institutionalization"))
+
+
+dg <- read_csv("Master Panel.csv") %>% 
+  filter(countryname == "Greece")
+
+ggplot() +
+  geom_line(data = dg, aes(x = year, y = v2xps_party, color = "v2xps_party"), size = 1) +
+  geom_line(data = dg, aes(x = year, y = PI_7, color = "PI_7"), size = 1) +
+  theme_bw() +
+  geom_rect(aes(xmin = 2008, xmax = 2015, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_vline(xintercept = 2009) +
+  geom_vline(xintercept = 2012) +
+  geom_vline(xintercept = 2015) +
+  ylim(-2,2) +
+  xlim(2005, 2015) +
+  ylab("Party System Institutionalization") +
+  xlab("Year") +
+  ggtitle("Party System Institutionalization - Greece") +
+  theme(plot.title = element_text(lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
+  scale_color_manual(values=c("v2xps_party"="black", "PI_7" = "lightblue"), labels = c("Party Strength", "Party System Institutionalization"))
+
+di <- read_csv("Master Panel.csv") %>% 
+  filter(countryname == "Italy/Sardinia")
+
+ggplot() +
+  geom_line(data = di, aes(x = year, y = v2xps_party, color = "v2xps_party"), size = 1) +
+  geom_line(data = di, aes(x = year, y = PI_7, color = "PI_7"), size = 1) +
+  theme_bw() +
+  geom_rect(aes(xmin = 2009, xmax = 2015, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_vline(xintercept = 2008) +
+  geom_vline(xintercept = 2013) +
+  ylim(-2,2) +
+  xlim(1990, 2015) +
+  ylab("Party System Institutionalization") +
+  xlab("Year") +
+  ggtitle("Party System Institutionalization - Italy") +
+  theme(plot.title = element_text(lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
+  scale_color_manual(values=c("v2xps_party"="black", "PI_7" = "lightblue"), labels = c("Party Strength", "Party System Institutionalization"))
+
+daus <- read_csv("Master Panel.csv") %>% 
+  filter(countryname == "Austria")
+
+ggplot() +
+  geom_line(data = daus, aes(x = year, y = v2xps_party, color = "v2xps_party"), size = 1) +
+  geom_line(data = daus, aes(x = year, y = PI_7, color = "PI_7"), size = 1) +
+  theme_bw() +
+  geom_rect(aes(xmin = 1986, xmax = 2002, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_rect(aes(xmin = 2008, xmax = 2015, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_vline(xintercept = 1986) +
+  geom_vline(xintercept = 1990) +
+  geom_vline(xintercept = 1994) +
+  geom_vline(xintercept = 1995) +
+  geom_vline(xintercept = 1999) +
+  geom_vline(xintercept = 2002) +
+  geom_vline(xintercept = 2006) +
+  geom_vline(xintercept = 2008) +
+  geom_vline(xintercept = 2013) +
+  ylim(-2,2) +
+  xlim(1980, 2015) +
+  ylab("Party System Institutionalization") +
+  xlab("Year") +
+  ggtitle("Party System Institutionalization - Austria") +
+  theme(plot.title = element_text(lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
+  scale_color_manual(values=c("v2xps_party"="black", "PI_7" = "lightblue"), labels = c("Party Strength", "Party System Institutionalization"))
+
+dfr <- read_csv("Master Panel.csv") %>% 
+  filter(countryname == "France")
+
+ggplot() +
+  geom_line(data = dfr, aes(x = year, y = v2xps_party, color = "v2xps_party"), size = 1) +
+  geom_line(data = dfr, aes(x = year, y = PI_7, color = "PI_7"), size = 1) +
+  theme_bw() +
+  geom_rect(aes(xmin = 1982, xmax = 2007, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_rect(aes(xmin = 2011, xmax = 2015, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
+  geom_vline(xintercept = 1981) +
+  geom_vline(xintercept = 1986) +
+  geom_vline(xintercept = 1988) +
+  geom_vline(xintercept = 1993) +
+  geom_vline(xintercept = 1997) +
+  geom_vline(xintercept = 2002) +
+  geom_vline(xintercept = 2007) +
+  geom_vline(xintercept = 2012) +
+  ylim(-2,2) +
+  xlim(1980, 2015) +
+  ylab("Party System Institutionalization") +
+  xlab("Year") +
+  ggtitle("Party System Institutionalization - France") +
+  theme(plot.title = element_text(lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
+  scale_color_manual(values=c("v2xps_party"="black", "PI_7" = "lightblue"), labels = c("Party Strength", "Party System Institutionalization"))
+@
+
+Ideas for tables
+Global PSI
+Regional PSI
+Time breakdown?
+The populism countries (with significant populist presence) vis-a-vis non-populism countries
+Populist leader time frames vs non-populist w/in country/case
+All populist vs all non-populist
+5 year avg of PSI prior to Populist
+Alternative explanations?
+  Institutions
+\end{document}
