@@ -1,36 +1,13 @@
 #fig 3-8
-#library(hadleyverse)
+library(dplyr) 
+library(readr)
+library(ggplot2)
 library(cowplot)
 library(zoo)
 #setwd("C:/Users/Darin/Documents/populism/descriptive")
 `%notin%` <- function(x,y) !(x %in% y) 
 
-df <- read_csv("Master Panel.csv") %>% 
-  select(countryname, year, v2xps_party, PI_7)
-
-avg <- read_csv("Master Panel.csv") %>% 
-  mutate(normalPI = (PI_7-min(PI_7, na.rm = TRUE))/(max(PI_7, na.rm = TRUE)-min(PI_7, na.rm = TRUE))) %>% 
-  mutate(polityl = lag(polity2, n = 1)) %>% 
-  mutate(polity = ifelse(year == 2015, rollapply(data = polityl, width = 5, 
-                                                 FUN = mean, 
-                                                 align = "right", 
-                                                 fill = NA, 
-                                                 na.rm = T), polity2)) %>% 
-  select(countryname, year, v2xps_party, PI_7, polity, normalPI) %>% 
-  filter(polity >= 6)  %>% 
-  group_by(year) %>% 
-  mutate(avg_psi = mean(v2xps_party, na.rm = TRUE)) %>% 
-  mutate(avg_pi7 = mean(PI_7, na.rm = TRUE)) %>% 
-  mutate(avg_nps = mean(normalPI, na.rm = TRUE)) %>% 
-  select(year, avg_psi, avg_pi7, avg_nps) %>% 
-  unique() %>% 
-  arrange(year) 
-
-df <- read_csv("Master Panel.csv") %>% 
-  mutate(normalPI = (PI_7-min(PI_7, na.rm = TRUE))/(max(PI_7, na.rm = TRUE)-min(PI_7, na.rm = TRUE))) %>% 
-  select(countryname, year, v2xps_party, PI_7, normalPI) %>% 
-  left_join(avg, by = "year")
-
+df <- read_csv("time_series.csv")
 
 ###Venezuela####
 dv <- df %>% 
@@ -340,5 +317,3 @@ ggsave("spain1.jpg", plot = s1)
 ggsave("spain2.jpg", plot = s2)
 
 
-
-##2x2##
