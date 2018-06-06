@@ -1,7 +1,7 @@
 #fig 1
-library(dplyr)
-library(ggplot2)
-setwd("C:/Users/Darin/Documents/populism/descriptive")
+#tidyverse 1.20
+library(tidyverse)
+setwd("C:/Users/Darin/Documents/populism/descriptive/replication")
 
 d1 <- read_csv("panel.csv")
 

@@ -1,10 +1,8 @@
 #fig 2
-library(ggplot2)
-library(dplyr)
-#setwd("C:/Users/Darin/Documents/populism/descriptive")
+#tidyverse 1.20
+library(tidyverse)
 
 d1 <- read_csv("panel.csv")
-
 
 ggplot(d1, aes(x = v2xps_party, y = score, color = region, label = abbr)) +
   geom_text(size = 2.5) +

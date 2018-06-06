@@ -9,7 +9,6 @@ d1 <- read_csv("panel.csv") %>%
   mutate(lavemag_bothtiers = log(DM)) %>% 
   mutate(invert = lavemag_bothtiers*-1) %>% 
   mutate(invertmag = log(avemag_lower)*-1) %>% 
-  mutate(abbr = country_code(countryname, "country", "cowc")) %>% 
   mutate(Populism = ntile(score,3), Populism = ifelse(Populism == 1, "Low", ifelse(Populism == 2, "Med", "High"))) %>%
   mutate(Populism = factor(Populism, levels = c("High", "Med", "Low"))) %>% 
   mutate(grid = c(1,2,1,1,4,2,1,1,2,3,1,1,2,2,2,1,1,2,2,2,2,4,2,3,1)) %>% 
@@ -35,7 +34,6 @@ ggplot(d1, aes(color = Populism)) +
   scale_color_grey() +
   scale_x_continuous(expand = c(.04, .04)) +
   scale_y_continuous(expand = c(.1, .1)) 
-  #ylim(c(-0.1,5.25))
 
 ggsave("fig3.jpg", dpi = 1000, width = 8, height = 5)
 
