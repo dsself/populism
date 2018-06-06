@@ -30,7 +30,7 @@ v1 <- ggplot() +
         axis.title.y = element_text(size = 10)) 
 
 v2 <- ggplot() +
-  geom_line(data = dv, aes(x = year, y = normalPI, color = "normalPI"), size = 1) +
+  geom_line(data = dv, aes(x = year, y = normalPS, color = "normalPS"), size = 1) +
   geom_line(data = dv, aes(x = year, y = avg_nps, color = "avg_nps"), size = 1) +
   theme_bw() +
   geom_rect(aes(xmin = 1999, xmax = 2015, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
@@ -40,7 +40,7 @@ v2 <- ggplot() +
   xlab("Year") +
   #ggtitle("Venezuelan Party Institutionalization \nand Party Strength") +
   theme(plot.title = element_text(size = 10, lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
-  scale_color_manual(values=c("normalPI"="black", "avg_nps" = "gray"), labels = c("Average", "Party Strength"), name = "") +
+  scale_color_manual(values=c("normalPS"="black", "avg_nps" = "gray"), labels = c("Average", "Party Strength"), name = "") +
   theme(legend.text=element_text(size=10), legend.title=element_text(size=10, face = "bold"),
         axis.title.x = element_text(size = 6),
         axis.title.y = element_text(size = 10)) 
@@ -90,80 +90,6 @@ b2 <- ggplot() +
 
 ggsave("bolivia1.jpg", plot = b1)
 ggsave("bolivia2.jpg", plot = b2)
-
-###Thailand####
-dt <- df %>% 
-  filter(countryname == "Thailand")
-
-t1 <- ggplot() +
-  geom_line(data = dt, aes(x = year, y = v2xps_party, color = "v2xps_party"), size = 1) +
-  geom_line(data = dt, aes(x = year, y = avg_psi, color = "average_PSI"), size = 1) +
-  theme_bw() +
-  geom_rect(aes(xmin = 2001, xmax = 2006, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
-  ylim(0.35,1) +
-  xlim(1990, 2015) +
-  ylab("Party Institutionalization") +
-  xlab("Year") +
-  theme(plot.title = element_text(size = 10, lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
-  scale_color_manual(values=c("v2xps_party"="black", "average_PSI" = "gray"), labels = c("Average", "PI"), name = "") +
-  theme(legend.text=element_text(size=10), legend.title=element_text(size=10, face = "bold"),
-        axis.title.x = element_text(size = 8),
-        axis.title.y = element_text(size = 10)) 
-
-t2 <- ggplot() +
-  geom_line(data = dt, aes(x = year, y = normalPI, color = "normalPI"), size = 1) +
-  geom_line(data = dt, aes(x = year, y = avg_nps, color = "avg_nps"), size = 1) +
-  theme_bw() +
-  geom_rect(aes(xmin = 2001, xmax = 2006, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
-  scale_y_continuous(limits = c(0.35, 1), position = "right") +
-  xlim(1990, 2015) +
-  ylab("Party Strengh") +
-  xlab("Year") +
-  theme(plot.title = element_text(size = 10, lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
-  scale_color_manual(values=c("normalPI"="black", "avg_nps" = "gray"), labels = c("Average", "Party Strength"), name = "") +
-  theme(legend.text=element_text(size=10), legend.title=element_text(size=10, face = "bold"),
-        axis.title.x = element_text(size = 6),
-        axis.title.y = element_text(size = 10)) 
-
-ggsave("thailand1.jpg", plot = t1)
-ggsave("thailand2.jpg", plot = t2)
-
-###Philippines####
-dp <- df %>% 
-  filter(countryname == "Philippines")
-
-p1 <- ggplot() +
-  geom_line(data = dp, aes(x = year, y = v2xps_party, color = "v2xps_party"), size = 1) +
-  geom_line(data = dp, aes(x = year, y = avg_psi, color = "average_PSI"), size = 1) +
-  theme_bw() +
-  #geom_rect(aes(xmin = 2001, xmax = 2006, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
-  scale_y_continuous(limits = c(0.35, 1), position = "right") +
-  xlim(1990, 2015) +
-  ylab("Party Institutionalization") +
-  xlab("Year") +
-  theme(plot.title = element_text(size = 10, lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
-  scale_color_manual(values=c("v2xps_party"="black", "average_PSI" = "gray"), labels = c("Average", "PI"), name = "") +
-  theme(legend.text=element_text(size=10), legend.title=element_text(size=10, face = "bold"),
-        axis.title.x = element_text(size = 8),
-        axis.title.y = element_text(size = 10)) 
-
-p2 <- ggplot() +
-  geom_line(data = dp, aes(x = year, y = normalPI, color = "normalPI"), size = 1) +
-  geom_line(data = dp, aes(x = year, y = avg_nps, color = "avg_nps"), size = 1) +
-  theme_bw() +
-  #geom_rect(aes(xmin = 2001, xmax = 2006, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
-  ylim(0.35,1) +
-  xlim(1990, 2015) +
-  ylab("Party Strengh") +
-  xlab("Year") +
-  theme(plot.title = element_text(size = 10, lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
-  scale_color_manual(values=c("normalPI"="black", "avg_nps" = "gray"), labels = c("Average", "Party Strength"), name = "") +
-  theme(legend.text=element_text(size=10), legend.title=element_text(size=10, face = "bold"),
-        axis.title.x = element_text(size = 6),
-        axis.title.y = element_text(size = 10)) 
-
-ggsave("philippines1.jpg", plot = p1)
-ggsave("philippines2.jpg", plot = p2)
 
 ###France####
 dfr <- df %>% 

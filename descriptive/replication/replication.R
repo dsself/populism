@@ -6,7 +6,7 @@ library(tidyverse)
 setwd("replication")
 
 #figure 1####
-d1 <- read_csv("panel.csv")
+d1 <- read_csv("panel_v8.csv")
 
 ggplot(d1) +
   geom_density(aes(x = score, fill = region), alpha = 0.4) +
@@ -25,14 +25,14 @@ ggplot(d1) +
         axis.title.y = element_text(size = 10))
 
 #table 2####
-d1 <- read_csv("panel.csv") %>% 
+d1 <- read_csv("panel_v8.csv") %>% 
   select(PI = v2xps_party, Strength = normalPS, score, elec_result_major, region) %>% 
   group_by(region) %>% 
   summarize_all(funs(avg = mean)) %>% 
   mutate_if(is.numeric, funs(round(., 2)))
 
 #figure 2####
-d1 <- read_csv("panel.csv")
+d1 <- read_csv("panel_v8.csv")
 
 ggplot(d1, aes(x = v2xps_party, y = score, color = region, label = abbr)) +
   geom_text(size = 2.5) +
@@ -71,7 +71,7 @@ ggplot(d1, aes(x = normalPS, y = score, color = region, label = abbr)) +
   xlim(.35, 1)
 
 #fig 3#####
-d1 <- read_csv("panel.csv") %>% 
+d1 <- read_csv("panel_v8.csv") %>% 
   mutate(avemag_bothtiers = ifelse(is.nan(avemag_bothtiers), avemag_lower, avemag_bothtiers)) %>% 
   mutate(lavemag_bothtiers = log(DM)) %>% 
   mutate(invert = lavemag_bothtiers*-1) %>% 
@@ -103,7 +103,7 @@ ggplot(d1, aes(color = Populism)) +
   scale_y_continuous(expand = c(.1, .1)) 
 
 #figure 4#####
-dv <- read_csv("time_series.csv") %>% 
+dv <- read_csv("time_series_v8.csv") %>% 
   filter(countryname == "Venezuela")
 
 ggplot() +
@@ -137,7 +137,7 @@ ggplot() +
         axis.title.y = element_text(size = 10)) 
 
 #figure 5#####
-db <- read_csv("time_series.csv") %>% 
+db <- read_csv("time_series_v8.csv") %>% 
   filter(countryname == "Bolivia")
 
 ggplot() +
@@ -171,7 +171,7 @@ ggplot() +
         axis.title.y = element_text(size = 10)) 
 
 #fig 6#####
-ds <- read_csv("time_series.csv") %>% 
+ds <- read_csv("time_series_v8.csv") %>% 
   filter(countryname == "Spain")
 
 ggplot() +
@@ -207,7 +207,7 @@ ggplot() +
 d1 <- read_csv("spainvotes.csv") %>% 
   mutate(E2011 = E2011*100, E2015 = E2015*100, E2016 = E2016*100)
 #fig 8####
-da <- read_csv("time_series.csv") %>% 
+da <- read_csv("time_series_v8.csv") %>% 
   filter(countryname == "Austria")
 
 ggplot() +
@@ -216,7 +216,7 @@ ggplot() +
   theme_bw() +
   geom_rect(aes(xmin = 1986, xmax = 2015, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
   ylim(0.35,1) +
-  xlim(1980, 2015) +
+  xlim(1970, 2015) +
   ylab("Party Institutionalization") +
   xlab("Year") +
   theme(plot.title = element_text(size = 10, lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
@@ -231,7 +231,7 @@ ggplot() +
   theme_bw() +
   geom_rect(aes(xmin = 1986, xmax = 2015, ymin = -Inf, ymax = Inf), fill = "gray", alpha= 0.2) +
   scale_y_continuous(limits = c(0.35, 1), position = "right") +
-  xlim(1980, 2015) +
+  xlim(1970, 2015) +
   ylab("Party Strengh") +
   xlab("Year") +
   theme(plot.title = element_text(size = 10, lineheight=.8, face="bold"), legend.position = "bottom", legend.title=element_blank()) +
@@ -241,7 +241,7 @@ ggplot() +
         axis.title.y = element_text(size = 10)) 
 
 #fig 9####
-df <- read_csv("time_series.csv") %>% 
+df <- read_csv("time_series_v8.csv") %>% 
   filter(countryname == "France")
 
 ggplot() +
@@ -275,7 +275,7 @@ ggplot() +
         axis.title.y = element_text(size = 10)) 
 
 #fig 10####
-du <- read_csv("time_series.csv") %>% 
+du <- read_csv("time_series_v8.csv") %>% 
   filter(countryname == "United States of America")
 
 ggplot() +
