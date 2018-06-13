@@ -3,7 +3,7 @@
 library(tidyverse)
 setwd("C:/Users/Darin/Documents/populism/descriptive/replication")
 
-d1 <- read_csv("panel.csv")
+d1 <- read_csv("panel_v8.csv")
 
 ggplot(d1) +
   geom_density(aes(x = score, fill = region), alpha = 0.4) +

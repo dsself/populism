@@ -1,10 +1,8 @@
-library(dplyr)
-library(readr)
-library(ggplot2)
+library(tidyverse)
 
-setwd("descriptive")
+setwd("C:/Users/Darin/Documents/populism/descriptive/replication")
 
-d1 <- read_csv("panel.csv") %>% 
+d1 <- read_csv("panel_v8.csv") %>% 
   mutate(avemag_bothtiers = ifelse(is.nan(avemag_bothtiers), avemag_lower, avemag_bothtiers)) %>% 
   mutate(lavemag_bothtiers = log(DM)) %>% 
   mutate(invert = lavemag_bothtiers*-1) %>% 

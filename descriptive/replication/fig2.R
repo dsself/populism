@@ -1,8 +1,9 @@
 #fig 2
 #tidyverse 1.20
 library(tidyverse)
+setwd("C:/Users/Darin/Documents/populism/descriptive/replication")
 
-d1 <- read_csv("panel.csv")
+d1 <- read_csv("panel_v8.csv")
 
 ggplot(d1, aes(x = v2xps_party, y = score, color = region, label = abbr)) +
   geom_text(size = 2.5) +

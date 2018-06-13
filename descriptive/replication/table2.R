@@ -3,7 +3,7 @@
 library(tidyverse)
 #setwd("C:/Users/Darin/Documents/populism/descriptive/replication")
 
-d1 <- read_csv("panel.csv") %>% 
+d1 <- read_csv("panel_v8.csv") %>% 
   select(PI = v2xps_party, Strength = normalPS, score, elec_result_major, region) %>% 
   group_by(region) %>% 
   summarize_all(funs(avg = mean)) %>% 
