@@ -1,0 +1,1082 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.25)  17 SEP 2018 16:16
+entering extended mode
+**./document.tex
+(document.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 144.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\framed\framed.sty"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip43
+\fb@frw=\dimen105
+\fb@frh=\dimen106
+\FrameRule=\dimen107
+\FrameSep=\dimen108
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\alltt.sty"
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen109
+\Gm@wd@mp=\dimen110
+\Gm@odd@mp=\dimen111
+\Gm@even@mp=\dimen112
+\Gm@layoutwidth=\dimen113
+\Gm@layoutheight=\dimen114
+\Gm@layouthoffset=\dimen115
+\Gm@layoutvoffset=\dimen116
+\Gm@dimlist=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks16
+\float@box=\box26
+\@float@everytoks=\toks17
+\@floatcapt=\box27
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen117
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\makecell\makecell.sty"
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen118
+\extrarowheight=\dimen119
+\NC@list=\toks18
+\extratabsurround=\skip44
+\backup@length=\skip45
+)
+\rotheadsize=\dimen120
+\c@nlinenum=\count92
+\TeXr@lab=\toks19
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\rotfloat\rotfloat.sty"
+Package: rotfloat 2004/01/04 v1.2 Combining float+rotating package (AS)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count93
+\rotFPtop=\skip46
+\rotFPbot=\skip47
+\rot@float@box=\box28
+\rot@mess@toks=\toks20
+)
+Package rotfloat Info: float package v1.3 detected on input line 74.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip48
+\bibsep=\skip49
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen121
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen122
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen123
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip11
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks22
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks23
+\eqnshift@=\dimen124
+\alignsep@=\dimen125
+\tagshift@=\dimen126
+\tagwidth@=\dimen127
+\totwidth@=\dimen128
+\lineht@=\dimen129
+\@envbody=\toks24
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks26
+\thm@bodyfont=\toks27
+\thm@headfont=\toks28
+\thm@notefont=\toks29
+\thm@headpunct=\toks30
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
+\dth@everypar=\toks31
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\bm.sty"
+Package: bm 2016/02/27 v1.2a Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 142.
+LaTeX Info: Redefining \bm on input line 208.
+)
+\c@proposition=\count107
+\c@lemma=\count108
+\c@hypothesis=\count109
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\upquote\upquote.sty"
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+No file document.aux.
+\openout1 = `document.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count110
+\scratchdimen=\dimen130
+\scratchbox=\box31
+\nofMPsegments=\count111
+\nofMParguments=\count112
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count113
+\MPscratchDim=\dimen131
+\MPnumerator=\count114
+\makeMPintoPDFobject=\count115
+\everyMPtoPDFconversion=\toks33
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 182.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 182.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for U+msa on input line 187.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 187.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 187.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 187.
+ [2] [3]
+
+Package natbib Warning: Citation `mudde2011voices' on page 1 undefined on input
+ line 206.
+
+
+Package natbib Warning: Citation `mudde2013exclusionary' on page 1 undefined on
+ input line 206.
+
+
+Package natbib Warning: Citation `hawkins2015mapping' on page 1 undefined on in
+put line 206.
+
+
+Package natbib Warning: Citation `betz1994radical' on page 1 undefined on input
+ line 208.
+
+
+Package natbib Warning: Citation `mudde2007populist' on page 1 undefined on inp
+ut line 208.
+
+
+Package natbib Warning: Citation `conniff2012populism' on page 1 undefined on i
+nput line 208.
+
+[1]
+
+Package natbib Warning: Citation `betz1994radical' on page 2 undefined on input
+ line 222.
+
+
+Package natbib Warning: Citation `mudde2007populist' on page 2 undefined on inp
+ut line 222.
+
+
+Package natbib Warning: Citation `bale2010if' on page 2 undefined on input line
+ 222.
+
+
+Package natbib Warning: Citation `art2011inside' on page 2 undefined on input l
+ine 222.
+
+
+Package natbib Warning: Citation `mudde2017populism' on page 2 undefined on inp
+ut line 222.
+
+
+Package natbib Warning: Citation `weyland1999neoliberal' on page 2 undefined on
+ input line 224.
+
+
+Package natbib Warning: Citation `roberts1995neoliberalism' on page 2 undefined
+ on input line 224.
+
+
+Package natbib Warning: Citation `roberts2013market' on page 2 undefined on inp
+ut line 224.
+
+
+Package natbib Warning: Citation `webber2011rebellion' on page 2 undefined on i
+nput line 224.
+
+
+Package natbib Warning: Citation `madrid2008rise' on page 2 undefined on input 
+line 224.
+
+
+Package natbib Warning: Citation `hawkins2003populism' on page 2 undefined on i
+nput line 224.
+
+
+LaTeX Warning: Reference `distribution' on page 2 undefined on input line 226.
+
+
+Package natbib Warning: Citation `hawkins2015mapping' on page 2 undefined on in
+put line 226.
+
+
+LaTeX Warning: Reference `distribution' on page 2 undefined on input line 226.
+
+[2] <fig1.jpg, id=24, 361.35pt x 421.575pt>
+File: fig1.jpg Graphic file (type jpg)
+ <use fig1.jpg>
+Package pdftex.def Info: fig1.jpg used on input line 231.
+(pdftex.def)             Requested size: 284.53156pt x 227.6278pt.
+
+
+Package natbib Warning: Citation `hawkins2015mapping' on page 3 undefined on in
+put line 237.
+
+
+Package natbib Warning: Citation `mudde2011voices' on page 3 undefined on input
+ line 239.
+
+
+Package natbib Warning: Citation `mudde2013exclusionary' on page 3 undefined on
+ input line 239.
+
+
+Package natbib Warning: Citation `hawkins2015mapping' on page 3 undefined on in
+put line 239.
+
+[3 <./fig1.jpg>]
+
+Package natbib Warning: Citation `roberts1995neoliberalism' on page 4 undefined
+ on input line 248.
+
+
+Package natbib Warning: Citation `roberts2003social' on page 4 undefined on inp
+ut line 248.
+
+
+Package natbib Warning: Citation `hawkins2015mapping' on page 4 undefined on in
+put line 248.
+
+
+Package natbib Warning: Citation `weyland2001clarifying' on page 4 undefined on
+ input line 248.
+
+
+Package natbib Warning: Citation `weyland2001clarifying' on page 4 undefined on
+ input line 248.
+
+
+Package natbib Warning: Citation `roberts2016newsletter' on page 4 undefined on
+ input line 248.
+
+
+Package natbib Warning: Citation `weyland2001clarifying' on page 4 undefined on
+ input line 248.
+
+
+Package natbib Warning: Citation `roberts2014populism' on page 4 undefined on i
+nput line 248.
+
+
+Package natbib Warning: Citation `mudde2007populist' on page 4 undefined on inp
+ut line 248.
+
+
+Package natbib Warning: Citation `hawkins2015mapping' on page 4 undefined on in
+put line 248.
+
+
+Package natbib Warning: Citation `weyland2001clarifying' on page 4 undefined on
+ input line 250.
+
+
+Package natbib Warning: Citation `roberts2015populism' on page 4 undefined on i
+nput line 250.
+
+[4]
+
+Package natbib Warning: Citation `levitsky2016challenges' on page 5 undefined o
+n input line 253.
+
+
+Package natbib Warning: Citation `mudde2007populist' on page 5 undefined on inp
+ut line 255.
+
+
+Package natbib Warning: Citation `mudde2013exclusionary' on page 5 undefined on
+ input line 255.
+
+
+Package natbib Warning: Citation `mudde2007populist' on page 5 undefined on inp
+ut line 257.
+
+
+Package natbib Warning: Citation `mudde2013exclusionary' on page 5 undefined on
+ input line 257.
+
+
+Package natbib Warning: Citation `hawkins2012measuring' on page 5 undefined on 
+input line 257.
+
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ú in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ù in font cmti12!
+
+Package natbib Warning: Citation `ostiguy2009high' on page 5 undefined on input
+ line 259.
+
+
+Package natbib Warning: Citation `ostiguy2009highlow' on page 5 undefined on in
+put line 259.
+
+
+Package natbib Warning: Citation `ostiguy2013flaunting' on page 5 undefined on 
+input line 259.
+
+
+Package natbib Warning: Citation `ostiguy2013flaunting' on page 5 undefined on 
+input line 259.
+
+[5]
+
+Package natbib Warning: Citation `moffitt2014rethinking' on page 6 undefined on
+ input line 261.
+
+
+Package natbib Warning: Citation `moffitt2016global' on page 6 undefined on inp
+ut line 261.
+
+
+Package natbib Warning: Citation `moffitt2014rethinking' on page 6 undefined on
+ input line 261.
+
+
+Package natbib Warning: Citation `hawkins2012measuring' on page 6 undefined on 
+input line 263.
+
+
+Package natbib Warning: Citation `ostiguy2009high' on page 6 undefined on input
+ line 263.
+
+
+Package natbib Warning: Citation `mughan2003economic' on page 6 undefined on in
+put line 267.
+
+
+Package natbib Warning: Citation `swank2003globalization' on page 6 undefined o
+n input line 267.
+
+
+Package natbib Warning: Citation `kriesi2006globalization' on page 6 undefined 
+on input line 267.
+
+
+Package natbib Warning: Citation `kriesi2008west' on page 6 undefined on input 
+line 267.
+
+
+Package natbib Warning: Citation `roberts1995neoliberalism' on page 6 undefined
+ on input line 267.
+
+
+Package natbib Warning: Citation `weyland1999neoliberal' on page 6 undefined on
+ input line 267.
+
+
+Package natbib Warning: Citation `weyland2001clarifying' on page 6 undefined on
+ input line 267.
+
+
+Package natbib Warning: Citation `roberts2014populism' on page 6 undefined on i
+nput line 267.
+
+
+Package natbib Warning: Citation `kitschelt1997radical' on page 6 undefined on 
+input line 267.
+
+
+Package natbib Warning: Citation `abedi2002challenges' on page 6 undefined on i
+nput line 267.
+
+
+Package natbib Warning: Citation `mudde2007populist' on page 6 undefined on inp
+ut line 267.
+
+
+Package natbib Warning: Citation `carter2011extreme' on page 6 undefined on inp
+ut line 267.
+
+
+Package natbib Warning: Citation `roberts1995neoliberalism' on page 6 undefined
+ on input line 267.
+
+
+Package natbib Warning: Citation `roberts2012politics' on page 6 undefined on i
+nput line 267.
+
+
+Package natbib Warning: Citation `roberts2013market' on page 6 undefined on inp
+ut line 267.
+
+
+Package natbib Warning: Citation `levitsky1998institutionalization' on page 6 u
+ndefined on input line 269.
+
+
+Package natbib Warning: Citation `mainwaring1995building' on page 6 undefined o
+n input line 269.
+
+
+Package natbib Warning: Citation `bizzarro2017v' on page 6 undefined on input l
+ine 269.
+
+[6]
+
+Package natbib Warning: Citation `tavits2013post' on page 7 undefined on input 
+line 275.
+
+
+LaTeX Warning: Reference `2x2' on page 7 undefined on input line 275.
+
+
+Overfull \vbox (194.36305pt too high) detected at line 290
+ []
+
+[7] [8] [9] [10]
+
+Package natbib Warning: Citation `hawkins2015mapping' on page 11 undefined on i
+nput line 345.
+
+
+Package natbib Warning: Citation `hawkins2015mapping' on page 11 undefined on i
+nput line 345.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Package natbib Warning: Citation `bizzarro2018party' on page 11 undefined on in
+put line 350.
+
+
+Package natbib Warning: Citation `bizzarro2017v' on page 11 undefined on input 
+line 350.
+
+
+Package natbib Warning: Citation `bizzarro2017v' on page 11 undefined on input 
+line 352.
+
+[11]
+
+Package natbib Warning: Citation `selway2016system' on page 12 undefined on inp
+ut line 360.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+[12]
+
+LaTeX Warning: Reference `breakdown' on page 13 undefined on input line 378.
+
+
+LaTeX Warning: Reference `distribution' on page 13 undefined on input line 400.
+
+
+
+LaTeX Warning: Reference `fig2' on page 13 undefined on input line 400.
+
+
+LaTeX Warning: Reference `fig2' on page 13 undefined on input line 402.
+
+<fig2_1.jpg, id=61, 361.35pt x 421.575pt>
+File: fig2_1.jpg Graphic file (type jpg)
+ <use fig2_1.jpg>
+Package pdftex.def Info: fig2_1.jpg used on input line 407.
+(pdftex.def)             Requested size: 227.62413pt x 227.6278pt.
+
+Overfull \hbox (10.81413pt too wide) in paragraph at lines 407--407
+[][] 
+ []
+
+<fig2_2.jpg, id=62, 361.35pt x 421.575pt>
+File: fig2_2.jpg Graphic file (type jpg)
+ <use fig2_2.jpg>
+Package pdftex.def Info: fig2_2.jpg used on input line 410.
+(pdftex.def)             Requested size: 227.62413pt x 227.6278pt.
+
+Overfull \hbox (28.88164pt too wide) in paragraph at lines 410--411
+[][] 
+ []
+
+
+LaTeX Warning: Reference `grid' on page 13 undefined on input line 418.
+
+
+LaTeX Warning: Reference `2x2' on page 13 undefined on input line 418.
+
+<fig3.jpg, id=63, 578.16pt x 361.35pt>
+File: fig3.jpg Graphic file (type jpg)
+ <use fig3.jpg>
+Package pdftex.def Info: fig3.jpg used on input line 422.
+(pdftex.def)             Requested size: 341.42903pt x 199.16766pt.
+ [13]
+
+LaTeX Warning: Reference `grid' on page 14 undefined on input line 429.
+
+[14 <./fig2_1.jpg> <./fig2_2.jpg> <./fig3.jpg>]
+
+LaTeX Warning: Reference `grid' on page 15 undefined on input line 431.
+
+
+Package natbib Warning: Citation `luna2011uprooted' on page 15 undefined on inp
+ut line 431.
+
+
+Package natbib Warning: Citation `birch2003two' on page 15 undefined on input l
+ine 431.
+
+
+Package natbib Warning: Citation `behiels2010stephen' on page 15 undefined on i
+nput line 431.
+
+[15]
+
+Package natbib Warning: Citation `dietz2007thaw' on page 16 undefined on input 
+line 446.
+
+
+Package natbib Warning: Citation `roberts2013market' on page 16 undefined on in
+put line 446.
+
+
+Package natbib Warning: Citation `hawkins2003populism' on page 16 undefined on 
+input line 448.
+
+
+Package natbib Warning: Citation `roberts2006populism' on page 16 undefined on 
+input line 448.
+
+
+Package natbib Warning: Citation `roberts2003social' on page 16 undefined on in
+put line 450.
+
+
+Package natbib Warning: Citation `roberts2007latin' on page 16 undefined on inp
+ut line 450.
+
+[16]
+
+Package natbib Warning: Citation `hawkins2003populism' on page 17 undefined on 
+input line 452.
+
+
+LaTeX Warning: Reference `venezuelapsi' on page 17 undefined on input line 452.
+
+
+<venezuela1.jpg, id=78, 415.5525pt x 421.575pt>
+File: venezuela1.jpg Graphic file (type jpg)
+ <use venezuela1.jpg>
+Package pdftex.def Info: venezuela1.jpg used on input line 457.
+(pdftex.def)             Requested size: 184.94247pt x 184.94678pt.
+
+Overfull \hbox (4.26749pt too wide) in paragraph at lines 457--457
+[][] 
+ []
+
+<venezuela2.jpg, id=79, 415.5525pt x 421.575pt>
+File: venezuela2.jpg Graphic file (type jpg)
+ <use venezuela2.jpg>
+Package pdftex.def Info: venezuela2.jpg used on input line 460.
+(pdftex.def)             Requested size: 184.94247pt x 184.94678pt.
+
+Overfull \hbox (40.40248pt too wide) in paragraph at lines 460--461
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--464
+
+ []
+
+
+Package natbib Warning: Citation `roberts2007latin' on page 17 undefined on inp
+ut line 468.
+
+
+Package natbib Warning: Citation `crabtree2013mnr' on page 17 undefined on inpu
+t line 468.
+
+
+Package natbib Warning: Citation `roberts2013market' on page 17 undefined on in
+put line 468.
+
+
+Package natbib Warning: Citation `crabtree2013mnr' on page 17 undefined on inpu
+t line 470.
+
+
+Package natbib Warning: Citation `centellas2009electoral' on page 17 undefined 
+on input line 470.
+
+
+Package natbib Warning: Citation `roberts2013market' on page 17 undefined on in
+put line 470.
+
+
+Package natbib Warning: Citation `webber2011rebellion' on page 17 undefined on 
+input line 472.
+
+[17 <./venezuela1.jpg> <./venezuela2.jpg>]
+
+LaTeX Warning: Reference `boliviapsi' on page 18 undefined on input line 474.
+
+<bolivia1.jpg, id=83, 415.5525pt x 421.575pt>
+File: bolivia1.jpg Graphic file (type jpg)
+ <use bolivia1.jpg>
+Package pdftex.def Info: bolivia1.jpg used on input line 478.
+(pdftex.def)             Requested size: 184.94247pt x 184.94678pt.
+
+Overfull \hbox (4.26749pt too wide) in paragraph at lines 478--478
+[][] 
+ []
+
+<bolivia2.jpg, id=84, 415.5525pt x 421.575pt>
+File: bolivia2.jpg Graphic file (type jpg)
+ <use bolivia2.jpg>
+Package pdftex.def Info: bolivia2.jpg used on input line 481.
+(pdftex.def)             Requested size: 184.94247pt x 184.94678pt.
+
+Overfull \hbox (40.40248pt too wide) in paragraph at lines 481--482
+[][] 
+ []
+
+
+LaTeX Warning: Reference `spainpsi' on page 18 undefined on input line 491.
+
+
+Package natbib Warning: Citation `selway2016system' on page 18 undefined on inp
+ut line 491.
+
+<spain1.jpg, id=85, 415.5525pt x 421.575pt>
+File: spain1.jpg Graphic file (type jpg)
+ <use spain1.jpg>
+Package pdftex.def Info: spain1.jpg used on input line 494.
+(pdftex.def)             Requested size: 184.94247pt x 184.94678pt.
+
+Overfull \hbox (4.26749pt too wide) in paragraph at lines 494--494
+[][] 
+ []
+
+<spain2.jpg, id=86, 415.5525pt x 421.575pt>
+File: spain2.jpg Graphic file (type jpg)
+ <use spain2.jpg>
+Package pdftex.def Info: spain2.jpg used on input line 497.
+(pdftex.def)             Requested size: 184.94247pt x 184.94678pt.
+
+Overfull \hbox (40.40248pt too wide) in paragraph at lines 497--498
+[][] 
+ []
+
+
+LaTeX Warning: Reference `spain_unem' on page 18 undefined on input line 503.
+
+
+Package natbib Warning: Citation `roberts2013market' on page 18 undefined on in
+put line 503.
+
+[18 <./bolivia1.jpg> <./bolivia2.jpg>]
+<spain_unem.png, id=90, 549.55313pt x 255.95625pt>
+File: spain_unem.png Graphic file (type png)
+ <use spain_unem.png>
+Package pdftex.def Info: spain_unem.png used on input line 507.
+(pdftex.def)             Requested size: 284.52756pt x 132.52388pt.
+
+
+LaTeX Warning: Reference `spainpsi' on page 19 undefined on input line 511.
+
+[19 <./spain1.jpg> <./spain2.jpg> <./spain_unem.png>]
+
+LaTeX Warning: Reference `spainvotes' on page 20 undefined on input line 513.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+<austria1.jpg, id=96, 415.5525pt x 421.575pt>
+File: austria1.jpg Graphic file (type jpg)
+ <use austria1.jpg>
+Package pdftex.def Info: austria1.jpg used on input line 550.
+(pdftex.def)             Requested size: 184.94247pt x 184.94678pt.
+
+Overfull \hbox (4.26749pt too wide) in paragraph at lines 550--550
+[][] 
+ []
+
+<austria2.jpg, id=97, 415.5525pt x 421.575pt>
+File: austria2.jpg Graphic file (type jpg)
+ <use austria2.jpg>
+Package pdftex.def Info: austria2.jpg used on input line 553.
+(pdftex.def)             Requested size: 184.94247pt x 184.94678pt.
+
+Overfull \hbox (40.40248pt too wide) in paragraph at lines 553--554
+[][] 
+ []
+
+[20]
+
+Package natbib Warning: Citation `muller1993after' on page 21 undefined on inpu
+t line 561.
+
+[21 <./austria1.jpg> <./austria2.jpg>]
+
+LaTeX Warning: Reference `francepsi' on page 22 undefined on input line 565.
+
+
+Package natbib Warning: Citation `knapp2004parties' on page 22 undefined on inp
+ut line 565.
+
+
+Package natbib Warning: Citation `grunberg2008french' on page 22 undefined on i
+nput line 565.
+
+
+Package natbib Warning: Citation `bornschier2009evolution' on page 22 undefined
+ on input line 565.
+
+<france1.jpg, id=104, 415.5525pt x 421.575pt>
+File: france1.jpg Graphic file (type jpg)
+ <use france1.jpg>
+Package pdftex.def Info: france1.jpg used on input line 568.
+(pdftex.def)             Requested size: 184.94247pt x 184.94678pt.
+
+Overfull \hbox (4.26749pt too wide) in paragraph at lines 568--568
+[][] 
+ []
+
+<france2.jpg, id=105, 415.5525pt x 421.575pt>
+File: france2.jpg Graphic file (type jpg)
+ <use france2.jpg>
+Package pdftex.def Info: france2.jpg used on input line 571.
+(pdftex.def)             Requested size: 184.94247pt x 184.94678pt.
+
+Overfull \hbox (40.40248pt too wide) in paragraph at lines 571--572
+[][] 
+ []
+
+
+Package natbib Warning: Citation `schain1999national' on page 22 undefined on i
+nput line 577.
+
+
+Package natbib Warning: Citation `shields2013marine' on page 22 undefined on in
+put line 579.
+
+
+Package natbib Warning: Citation `mayer2013jean' on page 22 undefined on input 
+line 579.
+
+
+Package natbib Warning: Citation `hawkins2015mapping' on page 22 undefined on i
+nput line 579.
+
+[22 <./france1.jpg> <./france2.jpg>]
+
+LaTeX Warning: Reference `usapsi' on page 23 undefined on input line 586.
+
+<usa1.jpg, id=110, 415.5525pt x 421.575pt>
+File: usa1.jpg Graphic file (type jpg)
+ <use usa1.jpg>
+Package pdftex.def Info: usa1.jpg used on input line 589.
+(pdftex.def)             Requested size: 184.94247pt x 184.94678pt.
+
+Overfull \hbox (4.26749pt too wide) in paragraph at lines 589--589
+[][] 
+ []
+
+<usa2.jpg, id=111, 415.5525pt x 421.575pt>
+File: usa2.jpg Graphic file (type jpg)
+ <use usa2.jpg>
+Package pdftex.def Info: usa2.jpg used on input line 592.
+(pdftex.def)             Requested size: 184.94247pt x 184.94678pt.
+
+Overfull \hbox (40.40248pt too wide) in paragraph at lines 592--593
+[][] 
+ []
+
+[23] [24 <./usa1.jpg> <./usa2.jpg>] [25]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+ [26] (document.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+(document.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4025 strings out of 493335
+ 54337 string characters out of 3136680
+ 133196 words of memory out of 3000000
+ 7421 multiletter control sequences out of 15000+200000
+ 19573 words of font info for 72 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,16n,32p,1634b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on document.pdf (29 pages, 3141159 bytes).
+PDF statistics:
+ 162 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+
